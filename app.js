@@ -14,6 +14,7 @@ app.listen(3000, (err) => {
     }
 });
 
+
 //mongodb connection
 mongoose.connect(process.env.DB_CONNECTION, { useNewUrlParser: true, useUnifiedTopology: true }, (err) => {
     if (!err) {
